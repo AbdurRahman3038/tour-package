@@ -1,0 +1,33 @@
+.google-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 190px;
+    margin-top: 191px;
+}
+
+.google-img{
+    width: 100px;
+}
+
+.google-btn{
+    background-color: white;
+    color: tomato;
+    border: 2px solid tomato;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(81, 202, 81);
+    border-right: 2px solid  rgb(77, 115, 184);
+    border-top: 2px solid   rgb(230, 102, 85);
+    border-left: 2px solid rgb(230, 230, 81);
+    font-weight: 600;
+}
+.google-btn:hover{
+    background-color: tomato;
+    color: white;
+    border: 2px solid tomato;
+    border-radius: 25px;
+    padding: 10px 20px;
+
+}

@@ -1,0 +1,41 @@
+.single-card:hover{
+box-shadow: 1px 1px 10px rgb(95, 98, 117);
+}
+.book-appointment{
+    background-color: white;
+    color: #1b2b46;
+    padding: 7px 20px;
+    border: 2px solid #1b2b46;
+    border-radius: 25px;
+    font-size: 18px;
+
+}
+.book-appointment:hover{
+    background-color: #1b2b46;
+    color: white;
+    border: 2px solid #131e30;
+}
+.package-img-style{
+    height: 200px;
+}
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card-footer-1{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+@media only screen and (max-width:688px){
+    .card-footer-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

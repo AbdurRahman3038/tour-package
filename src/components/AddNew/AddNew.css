@@ -1,0 +1,32 @@
+.add-service{
+    margin-bottom: 180px;
+}
+.add-service form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-service form input, textarea{
+    width: 40%;
+    margin-bottom: 15px;
+    padding: 8px 8px;
+}
+.submit-form{
+    border: 2px solid #1b2b46;
+    border-radius: 5px;
+}
+.submit-btn{
+    background-color: #1b2b46;
+    color: white;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:688px){
+
+    .add-service form input, textarea{
+        width: 70%;
+        margin-bottom: 15px;
+        padding: 5px 5px;
+    }
+}

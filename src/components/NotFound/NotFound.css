@@ -1,0 +1,12 @@
+.not-found{
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width:688px){
+    .not-found{
+        width: 300px;
+        
+    }
+}

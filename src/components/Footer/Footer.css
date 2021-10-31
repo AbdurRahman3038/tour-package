@@ -1,0 +1,69 @@
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    background-color: #1b2b46;
+    padding: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-style{
+    padding-left: 65px;
+}
+.fab{
+    color: white;
+    font-size: 40px;
+    padding-right: 30px;
+}
+.subscribe-input{
+    padding: 10px;
+}
+
+.subscribe-btn{
+    background-color: #1b2b46;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    
+}
+
+@media only screen and (max-width:688px){
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        background-color: #1b2b46;
+        padding: 40px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .fab{
+        color: white;
+        font-size: 30px;
+        padding-right: 20px;
+    }
+    .subscribe-input{
+        padding: 5px;
+    }
+    
+    .subscribe-btn{
+        background-color: #1b2b46;
+        color: white;
+        padding: 5px 20px;
+        cursor: pointer;
+        border: 1px solid white;
+        display: block;
+        
+    }
+    .connect-us{
+        margin-top: 20px;
+    }
+    .subscribe{
+        margin-top: 20px;
+    }
+    
+}

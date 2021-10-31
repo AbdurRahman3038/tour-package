@@ -1,0 +1,26 @@
+.img-style{
+    height: 270px;
+}
+.booking-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 70px;
+    margin: 0 100px;
+}
+.single-form{
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:688px){
+
+    .img-style{
+        height: 200px;
+    }
+    .booking-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        margin: 0 40px;
+    }
+}
